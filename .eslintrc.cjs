@@ -27,6 +27,13 @@ module.exports = {
       'off',
       { includeInternal: true, includeTypes: true },
     ],
+    'import/extensions': [
+      'error',
+      {
+        js: 'never',
+        jsx: 'never',
+      },
+    ],
     'import/order': [
       'error',
       {

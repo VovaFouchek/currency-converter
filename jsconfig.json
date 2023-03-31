@@ -3,7 +3,9 @@
     "target": "es5",
     "lib": ["es5", "dom", "dom.iterable", "esnext"],
     "jsx": "react-jsx",
-    "baseUrl": "src"
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": [".eslintrc.cjs", "src"]
+  "include": ["vite.config.js",".eslintrc.cjs", "src"]
 }
